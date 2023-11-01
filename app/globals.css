@@ -16,3 +16,7 @@ body {
   color: rgb(var(--foreground-rgb));
   padding: 1rem;
 }
+.swiper-button-prev {
+  color: red !important;
+  font-weight: 900;
+}

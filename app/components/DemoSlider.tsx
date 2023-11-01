@@ -11,21 +11,22 @@ import "swiper/css/pagination";
 
 // Our custom button component
 import SliderButtons from "./SliderButtons";
+import Link from "next/link";
 
 interface Slide {
   id: number;
   title: string;
   tagline: string;
   image: string;
-  buttons: ButtonProps[];
+  // buttons: ButtonProps[];
 }
 
-interface ButtonProps {
-  id: number;
-  text: string;
-  link: string;
-  type: string;
-}
+// interface ButtonProps {
+//   id: number;
+//   text: string;
+//   link: string;
+//   type: string;
+// }
 
 interface DemoSliderProps {
   data: Slide[];
@@ -59,7 +60,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
             }}
             modules={[Autoplay, Navigation, Pagination]}
           >
-            {data.map(({ id, image, tagline, title, buttons }) => (
+            {data.map(({ id, image, tagline, title }) => (
               <SwiperSlide key={id}>
                 <div
                   className="h-full w-full absolute left-0 top-0"
@@ -75,14 +76,17 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
                         {tagline}
                       </p>
                     )}
-                    <p className="text-3xl sm:text-6xl lg:text-8xl font-bold text-white">
+                    <Link
+                      href="/"
+                      className="text-3xl sm:text-6xl lg:text-8xl font-bold text-white"
+                    >
                       {title}
-                    </p>
-                    {buttons.length > 0 ? (
+                    </Link>
+                    {/* {buttons.length > 0 ? (
                       <p className=" bg-gray-800 inline-block px-9 py-2 rounded-full text-white mt-10 lg:mt-20">
                         <SliderButtons buttons={buttons} />
                       </p>
-                    ) : null}
+                    ) : null} */}
                   </div>
                 </div>
               </SwiperSlide>
