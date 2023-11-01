@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "ARE AWESOME",
+    "tagline": "NEXTJS 13 & SWIPER SLIDER",
+    "image": "/image1.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Roberto Nickson",
+        "link": "https://www.pexels.com/@rpnickson/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "GIVE IT A SHOOT",
+    "tagline": "IF YOU LIKE IT",
+    "image": "/image2.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Julia M Cameron",
+        "link": "https://www.pexels.com/@julia-m-cameron/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ARE AWESOME",
+    "tagline": "NEXTJS 13 & SWIPER SLIDER",
+    "image": "/image1.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Roberto Nickson",
+        "link": "https://www.pexels.com/@rpnickson/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "GIVE IT A SHOOT",
+    "tagline": "IF YOU LIKE IT",
+    "image": "/image2.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Julia M Cameron",
+        "link": "https://www.pexels.com/@julia-m-cameron/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "ARE AWESOME",
+    "tagline": "NEXTJS 13 & SWIPER SLIDER",
+    "image": "/image1.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Roberto Nickson",
+        "link": "https://www.pexels.com/@rpnickson/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "GIVE IT A SHOOT",
+    "tagline": "IF YOU LIKE IT",
+    "image": "/image2.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Julia M Cameron",
+        "link": "https://www.pexels.com/@julia-m-cameron/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "ARE AWESOME",
+    "tagline": "NEXTJS 13 & SWIPER SLIDER",
+    "image": "/image1.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Roberto Nickson",
+        "link": "https://www.pexels.com/@rpnickson/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "GIVE IT A SHOOT",
+    "tagline": "IF YOU LIKE IT",
+    "image": "/image2.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Julia M Cameron",
+        "link": "https://www.pexels.com/@julia-m-cameron/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  }
+]

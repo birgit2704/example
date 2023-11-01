@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "../components/Carousel";
+import HorizontalSideBar from "../components/DemoSlider";
+import DemoSlider from "../components/DemoSlider";
+import dataSlider from "../data/slider-data.json";
 
 interface User {
   id: number;
@@ -36,6 +39,7 @@ const UsersPage = async () => {
         </tbody>
       </table>
       <Carousel />
+      <DemoSlider data={dataSlider} />
     </>
   );
 };
