@@ -37,12 +37,26 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
       <div className="py-4">
         <ul className="h-full w-full">
           <Swiper
-            slidesPerView={4}
-            spaceBetween={20}
+            slidesPerView={1}
+            spaceBetween={10}
             navigation
             // pagination={{ type: "bullets", clickable: true }}
             autoplay={false}
             loop={true}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
+            }}
             modules={[Autoplay, Navigation, Pagination]}
           >
             {data.map(({ id, image, tagline, title, buttons }) => (
